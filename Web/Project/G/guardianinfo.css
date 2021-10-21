@@ -1,0 +1,121 @@
+body {
+    background: url(https://wallpaperaccess.com/full/3279247.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    
+}
+
+.header {
+    text-align: left;
+    padding-left: 24px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 2fr;
+    margin: 50px 120px 100px 120px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+                0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: hidden;
+    background: url(https://barbarashdwallpapers.com/wp-content/uploads/2011/01/White-abstract-water-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    left: 50%;
+    top: 50%;
+    transform: translate(-60%, 0%);
+    width: 1300px;
+  }
+
+.column{
+    height: 400px;
+}
+
+.course{
+    text-align: center;
+}
+
+.studentinfo{
+    text-align: center;
+}
+
+label{
+    content: center;
+}
+
+.wrapper {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 40px 15px 0px 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    word-wrap:break-word;
+    line-height: 1.6;
+}
+
+.profilesubject{
+    color:black;
+    font-weight: bold;
+}
+
+.profilevalue{
+  margin-left: 20px;
+  padding-right: 8px;
+}
+
+.nameextrapadding{
+    padding-left: 24px;
+}
+
+.addressextrapadding{
+    padding-left: 34px;
+}
+
+select {
+    box-shadow: 0 2px 5px rgb(218, 167, 100);
+    background-color: #f78235;
+    color: white;
+}
+
+#selectleft{
+    Text-align:center;
+    width: 50%;
+    float:left;
+}
+
+#selectright{
+    Text-align:center;
+    width: 50%;
+    float:right;
+}
+
+.table {
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+  }
+
+  #tablecourse th{
+    text-align: center;
+    background-color: #f78235;
+    color: white;
+  }
+  .table tr:nth-child(even){background-color: #ffffff;}
+  .table tr:nth-child(odd){background-color: #ffdbade7;}
+  .table tr:hover {color: #df9a1b;}
+
+ th, td {
+    border-bottom: 1px solid #ddd;
+ }
+
+  #address{
+      margin-top: -30px;
+  }
